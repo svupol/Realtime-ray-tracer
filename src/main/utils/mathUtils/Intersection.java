@@ -22,11 +22,4 @@ public class Intersection {
     public Vector getNormal() {
         return normal;
     }
-
-    public static Intersection getClosestIntersection(Intersection a, Intersection b) {
-        if (a == null || b == null)
-            return null;
-
-        return a.getPoint().length() > b.getPoint().length() ? b : a;
-    }
 }

@@ -1,7 +1,5 @@
 package main.tracer.scene;
 
-import java.awt.*;
-
 public class Material {
     private int r, g, b;
 

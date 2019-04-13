@@ -15,10 +15,6 @@ public class Illuminant {
         return position;
     }
 
-    public void setPosition(Vector position) {
-        this.position = this.position.add(position);
-    }
-
     public float getIntensity() {
         return intensity;
     }
